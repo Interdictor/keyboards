@@ -1,0 +1,40 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us(basic)"
+    name[Group1]="test";
+
+    key <TLDE> { [ grave, asciitilde, degree ] };
+    key <AE01> { [ 1, exclam, exclamdown, bar ] };
+    key <AE02> { [ 2, at, twosuperior ] };
+    key <AE03> { [ 3, numbersign, threesuperior ] };
+    key <AE04> { [ 4, dollar, EuroSign ] };
+    key <AE05> { [ 5, percent, notsign ] };
+
+    key <AC01> { [ a, A,  aacute, Aacute ] };
+    key <AD03> { [ e, E,  eacute, Eacute ] };
+    key <AD07> { [ u, U, uacute, Uacute ] };
+    key <AD08> { [ i, I, iacute, Iacute ] };
+    key <AD09> { [ o, O, oacute, Oacute ] };
+
+    key <AB06> { [ n, N, ntilde, Ntilde ] };
+    key <AD06> { [ y, Y, udiaeresis, Udiaeresis ] };
+
+    key <AB10> { [ slash, question, questiondown ] };
+    key <AD11> { [ bracketleft, braceleft, guillemotleft ] };
+    key <AD12> { [ bracketright, braceright, guillemotright ] };
+
+    key <AC02> { [ s, S, underscore ] };
+    key <AC04> { [ f, F, braceleft ] };
+    key <AC07> { [ j, J, braceright ] };
+    key <AB07> { [ m, M, bracketright ] };
+    key <AC09> { [ l, L, minus ] };
+    key <AD01> { [ q, Q, equal ] };
+    key <AD10> { [ p, P, plus ] };
+    key <AC03> { [ d, D, parenleft ] };
+    key <AC08> { [ k, K, parenright ] }; 
+    key <AB01> { [ z, Z, backslash ] };
+    key <AB02> { [ x, X, bar ] };
+ 
+    include "level3(ralt_switch)"
+};
