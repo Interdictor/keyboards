@@ -27,7 +27,6 @@ xkb_symbols "basic" {
     key <AC02> { [ s, S, underscore ] };
     key <AC04> { [ f, F, braceleft ] };
     key <AC07> { [ j, J, braceright ] };
-    key <AB07> { [ m, M, bracketright ] };
     key <AC09> { [ l, L, minus ] };
     key <AD01> { [ q, Q, equal ] };
     key <AD10> { [ p, P, plus ] };
@@ -35,6 +34,11 @@ xkb_symbols "basic" {
     key <AC08> { [ k, K, parenright ] }; 
     key <AB01> { [ z, Z, backslash ] };
     key <AB02> { [ x, X, bar ] };
- 
+    key <AB04> { [ v, V, bracketleft ] };
+    key <AB07> { [ m, M, bracketright ] };
+
+    key <AB03> { [ c, C, apostrophe ] };
+    key <AD04> { [ r, R, quotedbl ] };
+
     include "level3(ralt_switch)"
 };
