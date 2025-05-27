@@ -18,4 +18,4 @@ Add the following to `/usr/share/X11/xkb/rules/evdev.xml`:
 
 copy the file `io` to `~/.config/xkb/io`
 
-setxkbmap -layout test
+setxkbmap -layout io
